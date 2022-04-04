@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Menu.tres" type="DynamicFont" id=1]
+
+[node name="Utensil Info" type="Tabs"]
+margin_right = 40.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 7.0
+margin_top = 70.0
+margin_right = 972.0
+margin_bottom = 520.0
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Some of the kitchen Utensils definitly can be used as a murder weapon. 
+The victim could have been hit with a pan or he could have been choked to death with the spoon. 
+That would be a really inefficient way of murder but I shouldn't judge."
