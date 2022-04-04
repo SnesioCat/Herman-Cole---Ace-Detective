@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Menu Coffee House London\"\nI like to dine here, the food tastes great and the coffee is even better.\nI see the menu is unchanged since my last visit. As it should be.\nWhy change what is already great?"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1647543832.json",
+		"name": "Menu"
+	}
+}

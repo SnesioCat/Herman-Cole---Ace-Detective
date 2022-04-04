@@ -1,0 +1,21 @@
+{
+	"color": "#fffde5e5",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1647527791.json",
+	"mirror_portraits": false,
+	"name": "Cole",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -50,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/Bunnies/bunnie horizontal 5.png"
+		}
+	],
+	"scale": 1000,
+	"theme": ""
+}

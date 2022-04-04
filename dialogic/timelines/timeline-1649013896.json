@@ -1,0 +1,65 @@
+{
+	"events": [
+		{
+			"definition": "1647543467-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/salamisound-2981072-summer-storm-with-rain-about.mp3",
+			"volume": 0
+		},
+		{
+			"background": "res://Assets/downloads.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It was a rainy day"
+		},
+		{
+			"definition": "1647543467-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1649013896.json",
+		"name": "intro_case1"
+	}
+}

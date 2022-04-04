@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A pan, some wood spoons and a knife.\nSome of those could definitly be used as a weapon.\nThe knife is clean however.\nIt could have been wiped but that would be normal for a coffee house.\nIs this the only knife they have?\nThat would explain the long wait times...\nI'd Better note this down."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- kitchen utensil info noted down -"
+		},
+		{
+			"definition": "1648581129-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4",
+		"file": "timeline-1647633163.json",
+		"name": "Pan and Knife"
+	}
+}

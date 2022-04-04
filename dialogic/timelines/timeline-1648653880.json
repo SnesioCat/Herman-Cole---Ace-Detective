@@ -1,0 +1,410 @@
+{
+	"events": [
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Hey Cole, are you ready for a test logic battle?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I cannot refuse that!"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry Mister Keyes, I still need to investigate the area over there."
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Heh, of course you aren't ready to face me!"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then you're on, Cole!"
+		},
+		{
+			"definition": "1647543467-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "- test of logic -"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Music/2-10 Closing Argument.mp3",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "begin"
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Listen Cole, why do you French people like baguettes so much? \nIt's just dry bread!"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "(Did he just call me a Frenchman?)"
+		},
+		{
+			"choice": "Protest!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/sfx-objection.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"choice": "Let it slide",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eh, well, that is because of, so it's...."
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Come on Cole! Get it together!\nSo, I will ask you once again. "
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mr. Keyes!\nWhy do you think I'm French?"
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your French accent of course!\nI don't think there are any other French speaking countries!"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Belgium"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Really? Then what about..."
+		},
+		{
+			"choice": "Belgium!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What about Belgium Mr. Keyes!"
+		},
+		{
+			"choice": "Denmark!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What about Denmark Mr. Cole!"
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "....\nMr. Cole...\nStop this nonsense!\nAs I said there are no French speaking countries except France!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Music/1-13 Naruhodou Ryuunosuke _Objection!.mp3",
+			"volume": 0
+		},
+		{
+			"animation": "shake_y.gd",
+			"animation_length": 1,
+			"animation_repeat": 1,
+			"animation_wait": false,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nooo!!!\nY-You're from Belgium!?"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That's correct Mr. Keyes.\nYou are looking at the famous Belgium detective; Herman Cole!\nBut even then, there are a lot more French speaking countries!"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Music/2-10 Closing Argument.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1647536608.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe you were right about Belgium but there is no way even more countries speak in that stupid language of yours!\nOr are you ready to give me an example?"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1649079479",
+			"index": 0,
+			"name": "canada"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "This is another example of a French speaking country!"
+		},
+		{
+			"choice": "Canada",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What about Canada!"
+		},
+		{
+			"choice": "Holland",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Take a look at Holland!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.1",
+		"file": "timeline-1648653880.json",
+		"name": "Test Logic Battle"
+	}
+}

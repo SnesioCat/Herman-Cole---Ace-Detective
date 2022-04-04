@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmmmm, this is quite a disturbing image.\nNo external bleedings, but I can see some internal bleedings.\nThe victim probably got hit by a blunt object and died as a result.\nThat wouldn't have to be the case however...\nThe victim could have hit and then choked for example.\nI think it would be smart to note this down."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " - Info about the body noted down -"
+		},
+		{
+			"definition": "1648619988-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4",
+		"file": "timeline-1647630911.json",
+		"name": "Dead Pig"
+	}
+}

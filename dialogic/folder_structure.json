@@ -1,0 +1,87 @@
+{
+	"files": [
+
+	],
+	"folders": {
+		"Characters": {
+			"files": [
+				"character-1647527791.json",
+				"character-1647536608.json"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Definitions": {
+			"files": [
+				"1647530745-428",
+				"1647543467-648"
+			],
+			"folders": {
+				"Notes_case 1": {
+					"files": [
+						"1648581129-648",
+						"1648619988-648"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Themes": {
+			"files": [
+				"default-theme.cfg"
+			],
+			"folders": {
+
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		},
+		"Timelines": {
+			"files": [
+
+			],
+			"folders": {
+				"Tests": {
+					"files": [
+						"timeline-1647528145.json",
+						"timeline-1647536389.json",
+						"timeline-1647543832.json",
+						"timeline-1647630911.json",
+						"timeline-1647633163.json",
+						"timeline-1648053007.json",
+						"timeline-1648653880.json",
+						"timeline-1649013896.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
+					}
+				}
+			},
+			"metadata": {
+				"color": null,
+				"folded": false
+			}
+		}
+	}
+}

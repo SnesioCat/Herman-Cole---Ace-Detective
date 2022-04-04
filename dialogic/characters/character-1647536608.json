@@ -1,0 +1,21 @@
+{
+	"color": "#ff5e5241",
+	"description": "\n",
+	"display_name": "Keyes",
+	"display_name_bool": true,
+	"id": "character-1647536608.json",
+	"mirror_portraits": false,
+	"name": "Stefan Keyes",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 50,
+	"offset_y": -190,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/single_cat.png"
+		}
+	],
+	"scale": 1000,
+	"theme": ""
+}

@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "character-1647527791.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That looks like a very comfertable couch"
+		},
+		{
+			"definition": "1647530745-428",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4",
+		"file": "timeline-1647528145.json",
+		"name": "couch"
+	}
+}

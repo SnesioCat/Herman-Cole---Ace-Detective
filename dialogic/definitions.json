@@ -1,0 +1,31 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1647530745-428",
+			"name": "is_finished",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1648581129-648",
+			"name": "Utensil_info",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1648619988-648",
+			"name": "Body_notes",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647543467-648",
+			"name": "Music_stopped",
+			"type": 0,
+			"value": "1"
+		}
+	]
+}
